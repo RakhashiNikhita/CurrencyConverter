@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="CurrencyConverter.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <p>Enter amount:</p>
+            <input type="number" name="Currency" id="amount" min="1">
+            <div class="dropdownContainer">
+                <div class="dropdown">
+                    <p>From</p>
+                    <div class="select">
+                        <img src="" alt="" class="from-img">
+                        <select name="From" id="from">
+                        </select>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p>To</p>
+                    <div class="select">
+                        <img src="" alt="" class="to-img">
+                        <!-- <img src="https://countryflagsapi.netlify.app/flag/in.svg"> -->
+                        <select name="To" id="to">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button>Convert Amount</button>
+            <p class="info"></p>
+        </div>
+    </main>
+    <script src="CurrencyConverter.js"></script>
+</body>
+</html>
